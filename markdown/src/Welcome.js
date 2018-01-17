@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import {Row, Col} from 'react-bootstrap';
+import {
+    Row,
+    Col,
+} from 'react-bootstrap';
 
 class Welcome extends Component {
-  render() {
-    return (
-      <div>
-          <Row>
-              <Col xs={6} xsOffset={4}>
-                  <h1> Markdown Live Preview </h1>
-              </Col>
-          </Row>
-      </div>
-    );
-  }
+    render() {
+        return (
+          <div>
+              <Row>
+                  <Col xs={5} xsOffset={5}>
+                      <h3>Markdown Live Preview</h3>
+                  </Col>
+              </Row>
+          </div>
+        );
+    }
 }
 
 export default Welcome;
