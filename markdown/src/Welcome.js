@@ -9,7 +9,7 @@ class Welcome extends Component {
         return (
           <div>
               <Row>
-                  <Col xs={5} xsOffset={5}>
+                  <Col xs={3} xsOffset={5}>
                       <h3>Markdown Live Preview</h3>
                   </Col>
               </Row>

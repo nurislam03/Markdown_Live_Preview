@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import ReactDom from 'react-dom';
+
 import Welcome from './Welcome';
 import PageHeader from './PageHeader';
+import HomePage from './HomePage';
+
 
 class App extends Component {
   render() {
@@ -8,6 +12,7 @@ class App extends Component {
       <div>
           <PageHeader />
           <Welcome />
+          <HomePage />
       </div>
     );
   }
